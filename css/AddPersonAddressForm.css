@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    padding: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.addressBook-text {
+    text-align: left;
+    font: normal normal bold 22px/25px Montserrat;
+    opacity: 1;
+    color: rgb(66, 66, 248);
+    margin-left: 10px;
+}
+
+.addressBook-book {
+    color: black;
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
