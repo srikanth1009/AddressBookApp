@@ -62,3 +62,8 @@ const setTextValue = (id, value) => {
     const element = document.querySelector(id);
     element.textContent = value;
 };
+
+function getInputValueById(property) {
+    let value = document.querySelector(property).value;
+    return value;
+}

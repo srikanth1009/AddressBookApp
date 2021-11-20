@@ -37,17 +37,13 @@ body {
     margin-left: 10px;
 }
 
-.addressBook-book {
-    color: #42515f;
-}
-
 .form-content {
     min-height: calc(100% - 80px);
-    background-color: #f7f7f7;
+    background-color: #f0ebeb;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0px solid green;
+    margin: auto;
 }
 
 .form {
@@ -142,7 +138,7 @@ textarea {
 .column-constrains {
     display: flex;
     flex-flow: row wrap;
-    padding-top: 19px;
+    padding-top: 10px;
 }
 
 .column-content {
@@ -174,7 +170,7 @@ error-output {
 }
 
 .buttons-contact {
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     justify-content: flex-end;
 }
