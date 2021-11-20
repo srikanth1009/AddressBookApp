@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/logo.png">
     <link rel="stylesheet" href="../css/AddPersonAddressForm.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <script src="../js/cities.js"></script>
+    <script src="../js/AddressbookForm.js"></script>
+    <script src="../js/ContactData.js"></script>
     <title>Add Person AddressBook</title>
 </head>
 
@@ -32,7 +37,7 @@
                 <div class="row-content">
                     <label for="name" class="label text">Full Name</label>
                     <br>
-                    <input type="text" class="input" id="name" name="name" required>
+                    <input type="text" class="input" id="name" name="name" autocomplete="off" required>
                     <error-output class="name-error"></error-output>
                 </div>
 
@@ -126,6 +131,8 @@
             </div>
         </form>
     </div>
+
 </body>
+
 
 </html>
