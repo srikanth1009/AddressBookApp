@@ -85,7 +85,7 @@ const createAndUpdateStorage = (contact) => {
     } else {
         contactList = [contact];
     }
-    alert(contact.toString());
+
     alert("Contact Added Sucessfully");
     localStorage.setItem("ContactList", JSON.stringify(contactList));
 }
@@ -136,7 +136,6 @@ const createContact = () => {
         throw error;
     }
 
-    alert(contact.toString());
     return contact;
 };
 

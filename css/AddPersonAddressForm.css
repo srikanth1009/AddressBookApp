@@ -37,6 +37,10 @@ body {
     margin-left: 10px;
 }
 
+.addressBook-book {
+    color: #42515f;
+}
+
 .form-content {
     min-height: calc(100% - 80px);
     background-color: #f0ebeb;
@@ -156,6 +160,7 @@ select {
     color: #42515f;
     opacity: 1;
     width: 80%;
+    cursor: pointer;
 }
 
 .zipcode {

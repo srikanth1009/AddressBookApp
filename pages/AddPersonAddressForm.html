@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/logo.png">
     <link rel="stylesheet" href="../css/AddPersonAddressForm.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="font">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="font">
     <script src="../js/AddressbookForm.js"></script>
     <script src="../js/ContactData.js"></script>
     <title>Add Person AddressBook</title>
@@ -17,7 +17,10 @@
 <body>
     <header class="header-content header">
         <div class="logo-content">
-            <img src="../assets/logo.png" alt="logo" />
+            <a href="../pages/HomePage.html">
+                <img src="../assets/logo.png" alt="logo" />
+            </a>
+
             <div>
                 <span class="addressBook-text">ADDRESS</span><br />
                 <span class="addressBook-text addressBook-book">BOOK</span>
@@ -42,7 +45,7 @@
                 <div class="row-content">
                     <label for="address" class="label text">Address</label>
                     <br>
-                    <textarea name="address" id="address" placeholder="Your address.." autocomplete="off" required></textarea>
+                    <textarea name="address" id="address" autocomplete="off" required></textarea>
                     <error-output class="address-error"></error-output>
                 </div>
                 <div class="row-content">
@@ -59,8 +62,8 @@
                         <option value="Chennai">Chennai</option>
                         <option value="Vishaakpatanam">Vishaakpatanam</option>
                         <option value="Mumbai">Mumbai</option>
+                        <option value="Mumbai">Pune</option>
                         <option value="Hyderabad">Hyderabad</option>
-                        <option value="Pune">Pune</option>
                         <option value="Panaji">Panaji</option>
                         <option value="Noida">Noida</option></ol>
                           </select>
